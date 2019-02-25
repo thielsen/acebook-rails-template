@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/thielsen/acebook-rails-template.svg?branch=staging)](https://travis-ci.com/thielsen/acebook-rails-template)
+[![Build Status](https://travis-ci.com/thielsen/acebook-rails-template.svg?branch=staging)](https://travis-ci.com/thielsen/acebook-rails-template) [![codecov](https://codecov.io/gh/thielsen/acebook-rails-template/branch/staging/graph/badge.svg)](https://codecov.io/gh/thielsen/acebook-rails-template)    
 
 ## AceBook
 
