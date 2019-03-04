@@ -1,26 +1,39 @@
+[![Build Status](https://travis-ci.com/thielsen/acebook-rails-template.svg?branch=staging)](https://travis-ci.com/thielsen/acebook-rails-template) [![Maintainability](https://api.codeclimate.com/v1/badges/ba1feb2713e2722cfb3c/maintainability)](https://codeclimate.com/github/thielsen/acebook-rails-template/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/ba1feb2713e2722cfb3c/test_coverage)](https://codeclimate.com/github/thielsen/acebook-rails-template/test_coverage)
+
 ## AceBook
 
-REQUIRED INSTRUCTIONS:
+Acebook is a clone of Facebook developed as a group project in weeks 8 and 9 at Makers Academy.
 
-1. Fork this repository to `acebook-teamname` and customize
-the below**
+## Technologies
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+- Ruby on Rails (Web framework)
+- Devise (User authentication and routing)
+- Travis (Continuous Integration)
+- Code Climate (Code / test coverage)
+- Heroku (Deployment)
 
-2. The card wall is here: <please update>
+## Project aims
+- High maintainability
+- Quality, easily-changeable code
+- High test coverage (95%+)
+- Effective Agile working methods with 2-day sprints
 
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+## Links
 
-## Quickstart
+The production application is deployed to https://acebook-template-staging.herokuapp.com/
+Trello card wall for the project management is here: https://trello.com/b/k60sWUQo/team-rails-template
 
-First, clone this repository. Then:
+## Installing
+
+To install a development instance locally clone this repository. Then:
 
 ```bash
 > bundle install
+> brew install imagemagick (assuming you are on a Mac)
 > bin/rails db:create
 > bin/rails db:migrate
 
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
+> bundle exec rspec # Confirm all green
+> bin/rails server
 ```
+You can then connect to http://localhost:3000
