@@ -1,6 +1,9 @@
 class Post < ApplicationRecord
   has_many :likes, dependent: :destroy
+  has_one :photo, dependent: :destroy
   belongs_to :user, optional: true
-  has_attached_file :image, styles: { medium: "300x400#", thumb: "100x100>" }
-  validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
+
+  def get_photo(post_id)
+    Photo.find_by(post_id: post_id)
+  end
 end
