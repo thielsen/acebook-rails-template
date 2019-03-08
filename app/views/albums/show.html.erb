@@ -1,0 +1,14 @@
+<br>
+<h2 align='center'><%= @album.title %></h2>
+<br>
+<div class="row">
+
+<% @photos.each do |photo| %>
+    <div class="col-lg-4 col-md-12 mb-4" >
+    <section><%= link_to image_tag(photo.image, width: '400px'), photo.image.url, class:"img-fluid z-depth-1"%></section>
+    </div>
+  <% end %>
+</div>
+
+</div>
+</div>
